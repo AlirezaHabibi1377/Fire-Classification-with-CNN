@@ -50,7 +50,7 @@ Gap Analysis was performed to evaluate the difference between the training and t
 **Training vs Testing Loss Gap**:
 - A plot was generated to visualize the gap between training and testing loss as the model trained over 25 epochs in this project.
 
-![Training vs Testing Loss Gap](results/Gap Analysis.png)
+![Training vs Testing Loss Gap](results/Gap%20Analysis.png)
 
 ### 2. Rate Analysis
 Rate Analysis focused on the rate of change in loss and accuracy during training. This helps in understanding the learning dynamics and whether the model is converging.
