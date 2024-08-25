@@ -55,7 +55,7 @@ Gap Analysis was performed to evaluate the difference between the training and t
 ### 2. Rate Analysis
 Rate Analysis focused on the rate of change in loss and accuracy during training. This helps in understanding the learning dynamics and whether the model is converging.
 
-![Rate of Change in Loss and Accuracy](path/to/your/plots/rate_loss_plot.png)
+![Rate of Change in Loss and Accuracy](results/Rate%20Analysis.png)
 
 **Rate of Change in Loss and Accuracy**:
 - Plots were generated to show how the training and testing loss decreased and how accuracy improved over time.
@@ -66,7 +66,7 @@ The performance of the model was tracked over each epoch to monitor how well it 
 **Training and Testing Accuracy**:
 - Accuracy was plotted for both the training and testing sets over the epochs to visualize the model’s learning curve and final performance.
 
-![Training vs Testing Accuracy](path/to/your/plots/accuracy_plot.png)
+![Training vs Testing Accuracy](results/Model%20Performance%20Over%20Epochs)
 
 ### 4. Plot the Loss Curves of the Model
 The loss curves for both training and testing were plotted to provide a clear view of the model's convergence.
@@ -74,7 +74,7 @@ The loss curves for both training and testing were plotted to provide a clear vi
 **Loss Curves**:
 - The loss curves offer insights into how quickly the model is learning and whether it is suffering from overfitting or underfitting.
 
-![Loss Curves](path/to/your/plots/loss_curves_plot.png)
+![Loss Curves](results/Plot%20the%20loss%20curves)
 
 ### Final Performance
 - **Training Loss**: The final training loss after the last epoch.
