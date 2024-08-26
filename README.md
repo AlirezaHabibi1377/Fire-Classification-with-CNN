@@ -6,15 +6,13 @@ This project implements a Convolutional Neural Network (CNN) model based on the 
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
-- ## Project Overview
-The goal of this project is to train a deep learning model that can classify images as either containing fire or not. The model is intended to assist in early fire detection, which is crucial for preventing wildfires and minimizing damage. Note: for trining the model in this project is used 25 epochs that for more accuracy should be considered more to better performance of model.
+## Project Overview
+The goal of this project is to train a deep learning model that can classify images as either containing fire or not. The model is intended to assist in early fire detection, which is crucial for preventing wildfires and minimizing damage. Note: This project used 25 epochs to train the model, but more epochs should be considered to improve the model's performance and accuracy.
 
 ## Dataset
 ### Context
@@ -31,16 +29,13 @@ The dataset is imbalanced, with more images of fire than non-fire. It is recomme
 ## Model Architecture
 The model is based on the TinyVGG architecture, a simplified version of the VGG network. The architecture consists of two convolutional blocks followed by a fully connected layer. Here's a summary of the architecture:
 
-## Installation
+## Usage
 
 1. Clone the repository:
-   ```git clone https://github.com/yourusername/fire-classification-cnn.git
-cd fire-classification-cnn```
-
-2. Create a virtual environment:
-   ```python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate````
-
+   ```bash
+   git clone https://github.com/yourusername/fire-classification-cnn.git
+   cd fire-classification-cnn
+   ```
 ## Results
 The performance of the model was evaluated using several metrics and visualizations, which are described below:
 
@@ -84,8 +79,15 @@ The loss curves for both training and testing were plotted to provide a clear vi
 
 These plots and analyses collectively provide a comprehensive view of the model's performance throughout the training process.
 
-## Saved Model
+### Saved Model
 
 The trained model has been saved and can be reused for inference or further fine-tuning. The model is stored in the file:
 
 **`pytorch_fire_classification_model_0.pth`**
+
+
+## Contact
+
+Please feel free to contact me at email of mo.alirez77habibi@gmail.com
+
+
