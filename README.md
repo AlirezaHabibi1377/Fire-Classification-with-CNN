@@ -8,6 +8,7 @@ This project implements a Convolutional Neural Network (CNN) model based on the 
 - [Model Architecture](#model-architecture)
 - [Usage](#usage)
 - [Results](#results)
+- [Testing with Sample Images](#testing-with-sample-images)
 - [Contact](#contact)
 
 ## Project Overview
@@ -77,6 +78,22 @@ These plots and analyses collectively provide a comprehensive view of the model'
 The trained model has been saved and can be reused for inference or further fine-tuning. It is stored in the `results` folder under the filename:
 
 **`pytorch_fire_classification_model_0.pth`**
+
+## Testing with Sample Images
+
+The trained model in this project has been tested using two sample images to evaluate its accuracy and performance.
+
+The first original sample image is:
+![First sample](image1.png)
+
+The model's result on this image is:
+![Result sample 1](result-sample1.png)
+
+The second original sample image is:
+![Second sample](image1.png)
+
+The model's result on this image is:
+![Result sample 2](result-sample2.png)
 
 ## Contact
 
