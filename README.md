@@ -12,7 +12,7 @@ This project implements a Convolutional Neural Network (CNN) model based on the 
 - [Contact](#contact)
 
 ## Project Overview
-The goal of this project is to train a deep learning model that can classify images as either containing fire or not. The model is intended to assist in early fire detection, which is crucial for preventing wildfires and minimizing damage. Note: This project used 25 epochs to train the CNN model, but more epochs should be considered to improve the model's performance and accuracy.
+The goal of this project is to train a deep learning model that can classify images as either containing fire or not. The model is intended to assist in early fire detection, which is crucial for preventing wildfires and minimizing damage. Note: This project used **25 epochs** to train the CNN model, but more epochs should be considered to improve the model's performance and accuracy. For training the model, **75 percent** of the dataset is used for training, and the remainder (**25 percent**) is used for testing.
 
 ## Dataset
 ### Context
