@@ -88,6 +88,8 @@ The trained model has been saved and can be reused for inference or further fine
 
 **`pytorch_fire_classification_model_0.pth`**
 
+*Note: Please load the above trained model first, and then input any image you would like to see the result of this CNN model!*
+
 ## Testing with Sample Images
 
 The trained model in this project has been tested using two sample images to evaluate its accuracy and performance.
