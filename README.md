@@ -74,7 +74,7 @@ These plots and analyses collectively provide a comprehensive view of the model'
 
 ### Saved Model
 
-The trained model has been saved and can be reused for inference or further fine-tuning. The model is stored in the file:
+The trained model has been saved and can be reused for inference or further fine-tuning. It is stored in the `results` folder under the filename:
 
 **`pytorch_fire_classification_model_0.pth`**
 
