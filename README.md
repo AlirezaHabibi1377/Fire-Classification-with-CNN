@@ -12,11 +12,11 @@ This project implements a Convolutional Neural Network (CNN) model based on the 
 - [Contact](#contact)
 
 ## Project Overview
-The goal of this project is to train a deep learning model that can classify images as either containing fire or not. The model is intended to assist in early fire detection, which is crucial for preventing wildfires and minimizing damage. Note: This project used 25 epochs to train the model, but more epochs should be considered to improve the model's performance and accuracy.
+The goal of this project is to train a deep learning model that can classify images as either containing fire or not. The model is intended to assist in early fire detection, which is crucial for preventing wildfires and minimizing damage. Note: This project used 25 epochs to train the CNN model, but more epochs should be considered to improve the model's performance and accuracy.
 
 ## Dataset
 ### Context
-The dataset used in this project was created by our team during the NASA Space Apps Challenge in 2018. The challenge aimed to develop a model capable of recognizing fire in images. For more information on the context of the challenge, please visit [Our team page](#).
+The dataset used in this project was created by a team during the NASA Space Apps Challenge in 2018. The challenge aimed to develop a model capable of recognizing fire in images. For more information on the context of the dataset, please visit the Kaggle page at [this link](https://www.kaggle.com/datasets/phylake1337/fire-dataset).
 
 ### Content
 The dataset consists of images divided into two categories:
@@ -39,37 +39,37 @@ The model is based on the TinyVGG architecture, a simplified version of the VGG 
 ## Results
 The performance of the model was evaluated using several metrics and visualizations, which are described below:
 
-### 1. Gap Analysis
-Gap Analysis was performed to evaluate the difference between the training and testing loss over epochs. This helps identify whether the model is overfitting (training loss is significantly lower than testing loss) or underfitting (both training and testing losses are high).
-
-**Training vs Testing Loss Gap**:
-- A plot was generated to visualize the gap between training and testing loss as the model trained over 25 epochs in this project.
-
-![Training vs Testing Loss Gap](results/Gap%20Analysis.png)
-
-### 2. Rate Analysis
-Rate Analysis focused on the rate of change in loss and accuracy during training. This helps in understanding the learning dynamics and whether the model is converging.
-
-![Rate of Change in Loss and Accuracy](results/Rate%20Analysis.png)
-
-**Rate of Change in Loss and Accuracy**:
-- Plots were generated to show how the training and testing loss decreased and how accuracy improved over time.
-
-### 3. Model Performance Over Epochs
-The performance of the model was tracked over each epoch to monitor how well it was learning.
-
-**Training and Testing Accuracy**:
-- Accuracy was plotted for both the training and testing sets over the epochs to visualize the model’s learning curve and final performance.
-
-![Training vs Testing Accuracy](results/Model%20Performance%20Over%20Epochs.png)
-
-### 4. Plot the Loss Curves of the Model
+### 1. Loss Curves
 The loss curves for both training and testing were plotted to provide a clear view of the model's convergence.
 
 **Loss Curves**:
 - The loss curves offer insights into how quickly the model is learning and whether it is suffering from overfitting or underfitting.
 
 ![Loss Curves](results/Plot%20the%20loss%20curves.png)
+
+### 2. Model Performance Over Epochs
+The performance of the model was tracked over each epoch to monitor its learning progress.
+
+**Training and Testing Accuracy**:
+- Accuracy was plotted for both the training and testing sets over the epochs to visualize the model’s learning curve and final performance.
+
+![Training vs Testing Accuracy](results/Model%20Performance%20Over%20Epochs.png)
+
+### 3. Rate Analysis
+Rate analysis focused on the rate of change in loss and accuracy during training. This helps in understanding the learning dynamics and determining whether the model is converging.
+
+**Rate of Change in Loss and Accuracy**:
+- Plots were generated to show how the training and testing loss decreased and how accuracy improved over time.
+
+![Rate of Change in Loss and Accuracy](results/Rate%20Analysis.png)
+
+### 4. Gap Analysis
+A gap analysis was performed to evaluate the difference between the training and testing loss over epochs. This analysis helps identify whether the model is overfitting (training loss is significantly lower than testing loss) or underfitting (both training and testing losses are high).
+
+**Training vs. Testing Loss Gap**:
+- A plot was generated to visualize the gap between training and testing loss as the model trained over 25 epochs.
+
+![Training vs Testing Loss Gap](results/Gap%20Analysis.png)
 
 ### Final Performance
 - **Training Loss**: The final training loss after the last epoch.
@@ -85,9 +85,6 @@ The trained model has been saved and can be reused for inference or further fine
 
 **`pytorch_fire_classification_model_0.pth`**
 
-
 ## Contact
 
-Please feel free to contact me at email of mo.alirez77habibi@gmail.com
-
-
+Please feel free to contact me via email at mo.alirez77habibi@gmail.com.
