@@ -71,12 +71,6 @@ A gap analysis was performed to evaluate the difference between the training and
 
 ![Training vs Testing Loss Gap](results/Gap%20Analysis.png)
 
-### Final Performance
-- **Training Loss**: The final training loss after the last epoch.
-- **Testing Loss**: The final testing loss after the last epoch.
-- **Training Accuracy**: The final accuracy on the training set.
-- **Testing Accuracy**: The final accuracy on the testing set.
-
 These plots and analyses collectively provide a comprehensive view of the model's performance throughout the training process.
 
 ### Saved Model
