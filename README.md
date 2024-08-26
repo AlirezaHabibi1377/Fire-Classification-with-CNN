@@ -37,6 +37,7 @@ The model is based on the TinyVGG architecture, a simplified version of the VGG 
    cd fire-classification-cnn
    ```
 ## Results
+
 The performance of the model was evaluated using several metrics and visualizations, which are described below:
 
 ### 1. Loss Curves
@@ -45,7 +46,9 @@ The loss curves for both training and testing were plotted to provide a clear vi
 **Loss Curves**:
 - The loss curves offer insights into how quickly the model is learning and whether it is suffering from overfitting or underfitting.
 
-![Loss Curves](results/Plot%20the%20loss%20curves.png)
+<p align="center">
+  <img src="results/Plot%20the%20loss%20curves.png" alt="Loss Curves">
+</p>
 
 ### 2. Model Performance Over Epochs
 The performance of the model was tracked over each epoch to monitor its learning progress.
@@ -53,7 +56,9 @@ The performance of the model was tracked over each epoch to monitor its learning
 **Training and Testing Accuracy**:
 - Accuracy was plotted for both the training and testing sets over the epochs to visualize the model’s learning curve and final performance.
 
-![Training vs Testing Accuracy](results/Model%20Performance%20Over%20Epochs.png)
+<p align="center">
+  <img src="results/Model%20Performance%20Over%20Epochs.png" alt="Training vs Testing Accuracy">
+</p>
 
 ### 3. Rate Analysis
 Rate analysis focused on the rate of change in loss and accuracy during training. This helps in understanding the learning dynamics and determining whether the model is converging.
@@ -61,7 +66,9 @@ Rate analysis focused on the rate of change in loss and accuracy during training
 **Rate of Change in Loss and Accuracy**:
 - Plots were generated to show how the training and testing loss decreased and how accuracy improved over time.
 
-![Rate of Change in Loss and Accuracy](results/Rate%20Analysis.png)
+<p align="center">
+  <img src="results/Rate%20Analysis.png" alt="Rate of Change in Loss and Accuracy">
+</p>
 
 ### 4. Gap Analysis
 A gap analysis was performed to evaluate the difference between the training and testing loss over epochs. This analysis helps identify whether the model is overfitting (training loss is significantly lower than testing loss) or underfitting (both training and testing losses are high).
@@ -69,7 +76,9 @@ A gap analysis was performed to evaluate the difference between the training and
 **Training vs. Testing Loss Gap**:
 - A plot was generated to visualize the gap between training and testing loss as the model trained over 25 epochs.
 
-![Training vs Testing Loss Gap](results/Gap%20Analysis.png)
+<p align="center">
+  <img src="results/Gap%20Analysis.png" alt="Training vs Testing Loss Gap">
+</p>
 
 These plots and analyses collectively provide a comprehensive view of the model's performance throughout the training process.
 
