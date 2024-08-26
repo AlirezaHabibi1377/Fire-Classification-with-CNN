@@ -84,16 +84,16 @@ The trained model has been saved and can be reused for inference or further fine
 The trained model in this project has been tested using two sample images to evaluate its accuracy and performance.
 
 The first original sample image is:
-![First sample](Image1.png)
+![First sample](Image1.jpg)
 
 The model's result on this image is:
-![Result sample 1](result-sample1.png)
+![Result sample 1](result-sample1.jpg)
 
 The second original sample image is:
-![Second sample](Image2.png)
+![Second sample](Image2.jpg)
 
 The model's result on this image is:
-![Result sample 2](result-sample2.png)
+![Result sample 2](result-sample2.jpg)
 
 ## Contact
 
