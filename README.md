@@ -85,17 +85,25 @@ The trained model in this project has been tested using two sample images to eva
 
 ### First Sample
 The first original sample image is:
-![First sample](Image1.jpg)
+<p align="center">
+  <img src="Image1.jpg" alt="First sample" />
+</p>
 
 The model's result on this image is shown below. The prediction class label and predicted probability are indicated on the result image:
-![Result sample 1](result-image1.png)
+<p align="center">
+  <img src="result-image1.png" alt="Result sample 1" />
+</p>
 
 ### Second Sample
 The second original sample image is:
-![Second sample](Image2.jpg)
+<p align="center">
+  <img src="Image2.jpg" alt="Second sample" />
+</p>
 
 The model's result on this image is shown below. The prediction class label and predicted probability are indicated on the result image:
-![Result sample 2](result-image2.png)
+<p align="center">
+  <img src="result-image2.png" alt="Result sample 2" />
+</p>
 
 ## Contact
 
