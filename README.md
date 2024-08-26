@@ -34,6 +34,8 @@ The model is based on the TinyVGG architecture, a simplified version of the VGG 
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/fire-classification-cnn.git
+   ```
+   ```bash
    cd fire-classification-cnn
    ```
 ## Results
