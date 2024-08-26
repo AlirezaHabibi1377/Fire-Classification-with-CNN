@@ -83,16 +83,18 @@ The trained model has been saved and can be reused for inference or further fine
 
 The trained model in this project has been tested using two sample images to evaluate its accuracy and performance.
 
+### First Sample
 The first original sample image is:
 ![First sample](Image1.jpg)
 
-The model's result on this image is:
+The model's result on this image is shown below. The prediction class label and predicted probability are indicated on the result image:
 ![Result sample 1](result-image1.png)
 
+### Second Sample
 The second original sample image is:
 ![Second sample](Image2.jpg)
 
-The model's result on this image is:
+The model's result on this image is shown below. The prediction class label and predicted probability are indicated on the result image:
 ![Result sample 2](result-image2.png)
 
 ## Contact
