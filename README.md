@@ -92,7 +92,7 @@ The trained model has been saved and can be reused for inference or further fine
 
 The trained model in this project has been tested using two sample images to evaluate its accuracy and performance.
 
-### First Sample
+### First Image
 The first original sample image is:
 <p align="center">
   <img src="Image1.jpg" alt="First sample" />
@@ -103,7 +103,7 @@ The model's result on this image is shown below. The prediction class label and 
   <img src="result-image1.png" alt="Result sample 1" />
 </p>
 
-### Second Sample
+### Second Image
 The second original sample image is:
 <p align="center">
   <img src="Image2.jpg" alt="Second sample" />
