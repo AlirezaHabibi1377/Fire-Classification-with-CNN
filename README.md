@@ -87,13 +87,13 @@ The first original sample image is:
 ![First sample](Image1.jpg)
 
 The model's result on this image is:
-![Result sample 1](result-sample1.png)
+![Result sample 1](result-image1.png)
 
 The second original sample image is:
 ![Second sample](Image2.jpg)
 
 The model's result on this image is:
-![Result sample 2](result-sample2.png)
+![Result sample 2](result-image2.png)
 
 ## Contact
 
