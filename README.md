@@ -8,7 +8,6 @@ This project implements a Convolutional Neural Network (CNN) model based on the 
 - [Model Architecture](#model-architecture)
 - [Usage](#usage)
 - [Results](#results)
-- [Contributing](#contributing)
 - [Contact](#contact)
 
 ## Project Overview
