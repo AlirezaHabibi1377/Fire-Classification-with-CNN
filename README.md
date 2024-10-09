@@ -1,5 +1,6 @@
 # Fire Classification with CNN (TinyVGG)
 
+
 This project implements a Convolutional Neural Network (CNN) model based on the TinyVGG architecture to classify images as either containing fire or not. The model is built using PyTorch and was developed as part of a challenge to create a reliable fire detection system.
 
 ## Table of Contents
